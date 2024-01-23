@@ -7,10 +7,10 @@
 % MAT-files required: none
 
 classdef Phasor < matlab.mixin.CustomDisplay
-    methods
+    methods (Access = protected)
         function displayScalarObject(obj)
             className = matlab.mixin.CustomDisplay.getClassNameForHeader(obj);
-            scalarHeader = [className,' Dept: ',obj.Department];
+            scalarHeader = [className,' (Phasor) '];
             header = sprintf('%s\n',scalarHeader);
             disp(header)
             propgroup = getPropertyGroups(obj);

@@ -1,8 +1,10 @@
 function [titleObj, subTitleObj] = BetterPlot(x, y, ...
     plotTitle, xAxis, yAxis, plotName)
 
-%BetterPlot - Plots a an array of values
+% =====+=====+=====+=====+=====+=====+=====+=====+
+% BetterPlot - Plots a an array of values
 %              with JB's standard settings
+% =====+=====+=====+=====+=====+=====+=====+=====+
 %
 % function [p, t, titleObj] = ...
 %   BetterPlot(transFunc, plotTitle, xAxis, yAxis, plotName)
